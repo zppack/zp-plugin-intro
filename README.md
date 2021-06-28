@@ -28,7 +28,7 @@ Config introduction text in `.zprc` or `.user.zprc` file as following:
       [[init.plugins.config.list.texts]]
         text = '{zp-tab}'
       [[init.plugins.config.list.texts]]
-        text = 'cd {projectName}'
+        text = 'cd {name}'
         chalk = ['blueBright']
     [[init.plugins.config.list]]
       text = ' '
