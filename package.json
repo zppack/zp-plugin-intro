@@ -1,6 +1,6 @@
 {
   "name": "@zppack/zp-plugin-intro",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A plugin for zp to personalize introduction text.",
   "keywords": [],
   "homepage": "https://github.com/zppack/zp-plugin-intro",
