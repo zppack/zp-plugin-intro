@@ -21,10 +21,10 @@ const plugin = (ctx) => {
     const strs = list.map((item) => {
       const { text, texts } = item;
       if (text) {
-        return chalkFactory(item.chalk)(replaceText(text));
+        return chalkFactory(item.chalk ?? [])(replaceText(text));
       }
       if (texts) {
-        return texts.map((elem) => chalkFactory(elem.chalk)(replaceText(elem.text))).join('');
+        return texts.map((elem) => chalkFactory(elem.chalk ?? [])(replaceText(elem.text))).join('');
       }
       return '';
     });
