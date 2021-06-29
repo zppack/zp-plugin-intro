@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/zppack/zp-plugin-intro/compare/v0.1.2...v0.1.3) (2021-06-29)
+
+
+### Features
+
+* use `boxen` to beautify output ([f1fe5cb](https://github.com/zppack/zp-plugin-intro/commit/f1fe5cb99e7fd47c70d8a7d514e247a5d2a5b0c8))
+
 ### [0.1.2](https://github.com/zppack/zp-plugin-intro/compare/v0.1.1...v0.1.2) (2021-06-28)
 
 
