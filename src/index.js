@@ -1,4 +1,5 @@
 import chalk from 'chalk';
+import boxen from 'boxen';
 import log from '@zppack/log';
 
 const plugin = (ctx) => {
@@ -29,9 +30,12 @@ const plugin = (ctx) => {
       return '';
     });
 
-    strs.forEach((str) => {
-      console.log(str);
-    });
+    console.log(boxen(strs.join('\n'), {
+      margin: 1,
+      padding: { left: 3, right: 3, top: 1, bottom: 1 },
+      borderColor: 'blue',
+      borderStyle: 'double',
+    }));
   }
 };
 
